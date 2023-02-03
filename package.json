@@ -10,7 +10,8 @@
   "private": true,
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.3"
   },
   "devDependencies": {
     "@nrwl/cypress": "^15.6.3",
@@ -24,6 +25,7 @@
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "@types/react-router-dom": "5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "@vitejs/plugin-react": "^3.0.0",
@@ -44,6 +46,7 @@
     "sass": "^1.55.0",
     "typescript": "~4.8.2",
     "vite": "^4.0.1",
+    "vite-plugin-dts": "~1.7.1",
     "vite-plugin-eslint": "^1.8.1",
     "vite-tsconfig-paths": "^4.0.2",
     "vitest": "^0.25.8"
